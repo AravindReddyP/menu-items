@@ -9,7 +9,7 @@ const Categories = ({ filterCategory, uniqueCategories }) => {
           key={index}
           onClick={() => filterCategory(item)}
         >
-          {item}{' '}
+          {item}
         </button>
       ))}
     </div>
